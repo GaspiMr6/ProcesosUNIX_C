@@ -1,7 +1,7 @@
 # ProcesosUNIX_C
 En este programa escrito en C se genera el siguiente árbol de procesos:
 
-[arbol](resources/arbol.png)
+![arbol](resources/arbol.png)
 
 Se utiliza memoria compartida para imprimir por pantalla los pid de los distintos procesos
 
