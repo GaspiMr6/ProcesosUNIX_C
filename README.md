@@ -1,8 +1,7 @@
-# ProcesosUNIX_C
-En este programa escrito en C se genera el siguiente árbol de procesos:
+# UNIXProcesses_C
+In this program written in C, the following process tree is generated:
 
 ![arbol](resources/arbol.png)
 
-Se utiliza memoria compartida para imprimir por pantalla los pid de los distintos procesos
-
-Además, el programa requiere de 2 parámetros o argumentos: el proceso Z pasados los segundos indicados por el segundo argumento le ordenará mediante una señal al proceso indicado por el primer parámetro (A, B, X, Y) que ejecute otra orden (si el parámetro es A o B, ejecutará el comando "pstree", mientras que si el parámetro es X o Y ejecutará el comando "ls").
+Shared memory is used to print the PIDs of the different processes.
+Also, the program requires 2 parameters or arguments: Z process, after the number of seconds specified by the second parameter, will send a signal to the process indicated by the first parameter (A, B, X, Y), instructing it to execute another command (if the parameter is A or B, it will execute the "pstree" command, while if the parameter is X or Y, it will execute the "ls" command).
